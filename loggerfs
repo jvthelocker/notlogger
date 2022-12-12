@@ -13,6 +13,13 @@ local LocalPlayer = Players.LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local CurrentCamera = Workspace.CurrentCamera
 
+getgenv().Aiming.UseMoreHitparts = true
+getgenv().Aiming.UseNearestCursor = true
+getgenv().Aiming.AutoPrediction = false
+getgenv().Aiming.KnockedCheck = true
+getgenv().Aiming.GrabbedCheck = true
+getgenv().Aiming.Wallcheck = true
+
 local DaHoodSettings = {
     SilentAim = true,
     AimLock = false,
